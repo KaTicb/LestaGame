@@ -26,7 +26,7 @@ int main(void) {
 
     std::cout << "OPENGL: " << GLVersion.major << "." << GLVersion.minor;
 
-    glClearColor(0.20, 0.23, 0.22, 1);
+    glClearColor(1, 1, 1, 1);
 
     /* Loop until the user closes the window */
     while (!glfwWindowShouldClose(window)) {
